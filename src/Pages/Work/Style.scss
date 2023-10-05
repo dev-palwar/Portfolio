@@ -1,0 +1,38 @@
+.work {
+    .heading {
+        display: flex;
+
+        h1 {
+            font-size: 4.1rem;
+            text-transform: uppercase;
+        }
+
+        .bars {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span {
+                height: 3vh;
+                background-color: aliceblue;
+                background-color: #f07;
+            }
+
+            :nth-child(1) {
+                width: 19vh;
+                margin-bottom: 5px;
+                margin-right: 5rem;
+            }
+
+            :nth-child(2) {
+                width: 29vh;
+                background-color: #313538;
+            }
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}

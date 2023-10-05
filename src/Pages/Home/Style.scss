@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 75vh;
+
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    flex-basis: 34rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .icons {
+      display: flex;
+      gap: 1rem;
+      font-size: 27px;
+      color: red;
+    }
+  }
+
+  .image-section {
+    border: 2px solid;
+    height: 49vh;
+    width: 21vw;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

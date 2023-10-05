@@ -1,0 +1,48 @@
+// Navbar.scss
+.navbar {
+  max-width: 1180px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 100;
+  
+  &-logo {
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  &-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  &-item {
+    transition: all 0.3s;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+
+    &:hover {
+      color: crimson;
+    }
+  }
+  button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 28px;
+    background-color: #f07;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+}
