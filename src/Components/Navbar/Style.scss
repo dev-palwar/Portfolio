@@ -1,4 +1,5 @@
-// Navbar.scss
+@import "../../Styles/Index.scss";
+
 .navbar {
   max-width: 1180px;
   margin: auto;
@@ -35,9 +36,9 @@
   button{
     border: none;
     border-radius: 5px;
-    color: white;
+    color: black;
     padding: 12px 28px;
-    background-color: #f07;
+    background-color: $primaryColor;
     cursor: pointer;
     transition: all 0.3s;
     &:hover{

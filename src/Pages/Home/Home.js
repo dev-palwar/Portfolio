@@ -1,37 +1,31 @@
 import React from "react";
 import "../Home/Style.scss";
-import {
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-  AiOutlineGithub,
-} from "react-icons/ai";
-import me from "../../Assets/me.jpg";
+import { motion } from "framer-motion";
+import sanji from "../../Assets/sanji.jpg";
+import { animations } from "../../Styles/Animations/Animations";
+import Socials from "../../Components/Socials/Socials";
 
 const Home = () => {
   return (
     <>
-        <div className="home">
-          <div className="info-section">
-            <h1>
-              Hey, I'm <br />
-              Dev Palwar
-            </h1>
-            <h3>A Full Stack Developer</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Exercitationem ad iusto voluptatum rem eligendi nesciunt, fugit
-              fugiat sit quidem quos!
-            </p>
-            <div className="icons">
-              <AiOutlineGithub style={{ color: "#4078c0" }} />
-              <AiFillTwitterCircle style={{ color: "#26a7de " }} />
-              <AiFillLinkedin style={{ color: "#0072b1 " }} />
-            </div>
-          </div>
-          <div className="image-section">
-            <img src={me} alt="" />
-          </div>
+      <div className="home">
+        <div className="info-section">
+          <motion.h1 {...animations.h1}>
+            Hey, I'm <br />
+            Dev Palwar
+          </motion.h1>
+          <motion.h3 {...animations.fade}>A Full Stack Developer</motion.h3>
+          <motion.p {...animations.fade}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem ad iusto voluptatum rem eligendi nesciunt, fugit
+            fugiat sit quidem quos!
+          </motion.p>
+          <Socials />
         </div>
+        <div className="image-section">
+          <img src={sanji} alt="" />
+        </div>
+      </div>
     </>
   );
 };

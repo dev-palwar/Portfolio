@@ -1,56 +1,10 @@
 @import '../../Styles/Index.scss';
-.about {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
 
-
-    .heading {
-        text-transform: uppercase;
+.about {    
+    .info {
         display: flex;
         flex-direction: column;
-        transform: translateY(-10vh);
-
-        h1 {
-            color: $primaryColor;
-            font-size: 4.1rem;
-        }
-
-        div {
-            display: flex;
-            gap: 7px;
-
-            .bars {
-                display: flex;
-                flex-direction: column;
-
-                span {
-                    height: 2vh;
-                    background-color: aliceblue;
-                    background-color: $primaryColor;
-                }
-
-                :nth-child(1) {
-                    width: 14vh;
-                }
-
-                :nth-child(2) {
-                    width: 19vh;
-                    background-color: #313538;
-                }
-            }
-
-            h3 {
-                font-size: 3rem;
-                margin-top: -1rem;
-            }
-        }
-    }
-
-    .info {
-        transform: translateY(5rem);
+        justify-content: center;
 
         p {
             font-size: 22px;

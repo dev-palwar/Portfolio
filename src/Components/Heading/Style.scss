@@ -1,0 +1,33 @@
+@import "../../Styles/Index.scss";
+
+.heading {
+    display: flex;
+    margin-bottom: 3rem;
+
+    h1 {
+        font-size: $primaryHeading;
+        text-transform: uppercase;
+    }
+
+    .bars {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 2rem;
+        span {
+            height: 3vh;
+            background-color: aliceblue;
+            background-color: $primaryColor;
+        }
+
+        :nth-child(1) {
+            width: 15vh;
+            margin-bottom: 5px;
+            margin-right: 5rem;
+        }
+
+        :nth-child(2) {
+            background-color: #313538;
+        }
+    }
+}

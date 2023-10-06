@@ -1,5 +1,6 @@
 import React from "react";
 import "../Contact/Style.scss";
+import { motion } from "framer-motion";
 import { BiSolidMessage, BiSolidPhone } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
 import {
@@ -7,41 +8,18 @@ import {
   AiFillGithub,
   AiFillTwitterCircle,
 } from "react-icons/ai";
+import Heading from "../../Components/Heading/Heading";
+import { animations } from "../../Styles/Animations/Animations";
+import Socials from "../../Components/Socials/Socials";
+import Form from "../../Components/Form/Form";
 
 const Contact = () => {
   return (
     <>
-        <div className="heading">
-          <div className="bars">
-            <span></span>
-            <span></span>
-          </div>
-          <h1>Contact me</h1>
-        </div>
-      <div className="contact-section">
+      <Heading Heading={"Contact me"} />
+      <motion.div {...animations.fade} className="contact-section">
         <div className="form">
-          <form action="">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Your name..."
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Your email..."
-            />
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="Your message..."
-            ></textarea>
-            <button type="submit">Submit</button>
-          </form>
+          <Form />
           <div className="details">
             <div>
               <h3>Contact info</h3>
@@ -60,13 +38,11 @@ const Contact = () => {
             </div>
             <div>
               <h3>Social networks</h3>
-              <div>
-                <AiFillFacebook /> <AiFillTwitterCircle /> <AiFillGithub />{" "}
-              </div>
+              <Socials />
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

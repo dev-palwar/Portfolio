@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
 
-$primaryColor : #f07;
+$primaryColor : #ecdc7b;
+$primaryHeading : 4.1rem;
 
 * {
     margin: 0;
     padding: 0;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 body {
@@ -23,6 +33,7 @@ a {
     margin: auto;
     justify-content: center;
 }
-.active{
+
+.active {
     color: red;
 }
