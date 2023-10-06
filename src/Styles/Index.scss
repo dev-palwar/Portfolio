@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
 
+$primaryColor : #f07;
+
 * {
     margin: 0;
     padding: 0;
@@ -20,4 +22,7 @@ a {
     max-width: 1180px;
     margin: auto;
     justify-content: center;
+}
+.active{
+    color: red;
 }

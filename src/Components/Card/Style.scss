@@ -1,28 +1,40 @@
 .card {
     max-width: 50vh;
+    overflow: hidden;
+    cursor: pointer;
     .image-section {
+        overflow: hidden;
         height: 30vh;
+        margin-bottom: 10px;
+
         img {
+            transition: all 0.2s;
+            overflow: hidden;
             height: 100%;
             width: 100%;
             object-fit: cover;
+
+            &:hover {
+                transform: scale(1.2);
+            }
         }
+
     }
 
     .info {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        align-items: center;
 
         h3 {
-            font-size: 23px;
-            font-weight: 600;
+            font-size: 19px;
+            font-weight: 400;
         }
 
         .buttons {
-            font-size: 24px;
+            font-size: 21px;
             display: flex;
-            gap: 10px;
         }
     }
 }

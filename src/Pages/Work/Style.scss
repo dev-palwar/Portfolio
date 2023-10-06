@@ -1,3 +1,5 @@
+@import '../../Styles/Index.scss';
+
 .work {
     .heading {
         display: flex;
@@ -14,7 +16,7 @@
             span {
                 height: 3vh;
                 background-color: aliceblue;
-                background-color: #f07;
+                background-color: $primaryColor;
             }
 
             :nth-child(1) {

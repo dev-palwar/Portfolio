@@ -1,22 +1,20 @@
 import React from "react";
-import "../Card/Style.scss"
+import "../Card/Style.scss";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 
-const Card = () => {
+const Card = ({ heading, image, url, github }) => {
   return (
     <div className="card">
       <div className="image-section">
-        <img
-          src="https://developer.vercel.app/_next/image?url=%2Frun.jpg&w=3840&q=75"
-          alt=""
-        />
+        <a href={url} target="_blank">
+          <img src={image} alt="" />
+        </a>
       </div>
       <div className="info">
-        <h3>Run</h3>
-        <div className="buttons">
-          <AiOutlineLink />
+        <h3>{heading}</h3>
+        <a href={github}  target="_blank" className="buttons">
           <AiFillGithub />
-        </div>
+        </a>
       </div>
     </div>
   );

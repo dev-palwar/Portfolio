@@ -1,3 +1,4 @@
+@import '../../Styles/Index.scss';
 .about {
     height: 60vh;
     display: flex;
@@ -13,7 +14,7 @@
         transform: translateY(-10vh);
 
         h1 {
-            color: #f07;
+            color: $primaryColor;
             font-size: 4.1rem;
         }
 
@@ -28,7 +29,7 @@
                 span {
                     height: 2vh;
                     background-color: aliceblue;
-                    background-color: #f07;
+                    background-color: $primaryColor;
                 }
 
                 :nth-child(1) {

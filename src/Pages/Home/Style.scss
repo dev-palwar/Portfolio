@@ -1,3 +1,5 @@
+@import '../../Styles/Index.scss';
+
 .home {
   display: flex;
   width: 100%;
@@ -43,4 +45,23 @@
       object-fit: cover;
     }
   }
+}
+
+@media screen and (max-width: 500px){
+  .home{
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    .info-section{
+      padding: 2rem;
+      h1{
+        font-size: 35px;
+      }
+    }
+    .image-section{
+      width: 85vw;
+      order: -1;
+    }
+  }
+
 }

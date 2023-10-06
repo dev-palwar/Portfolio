@@ -1,6 +1,7 @@
 import React from "react";
 import "../Work/Style.scss";
 import Card from "../../Components/Card/Card";
+import Data from "../../Assets/Data.json";
 
 const Work = () => {
   return (
@@ -10,15 +11,12 @@ const Work = () => {
           <span></span>
           <span></span>
         </div>
-        <h1>work</h1>
+        <h1>my work</h1>
       </div>
       <div className="cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {Data.map((value) => {
+         return <Card key={value.id} heading={value.heading} url={value.link} image={value.img} github={value.github}/>;
+        })}
       </div>
     </div>
   );
