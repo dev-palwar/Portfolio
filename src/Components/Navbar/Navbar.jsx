@@ -28,7 +28,6 @@ const Navbar = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
-        <button>Resume</button>
         </ul>
         <div
           className={`hamburger ${isOpen ? "active" : ""}`}
