@@ -14,6 +14,7 @@
         flex-direction: column;
         justify-content: center;
         margin-right: 2rem;
+
         span {
             height: 3vh;
             background-color: aliceblue;
@@ -28,6 +29,21 @@
 
         :nth-child(2) {
             background-color: #313538;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        margin-bottom: 1rem;
+        flex-direction: column;
+        margin-top: 1rem;
+        >h1{
+            font-size: 40px;
+        }
+        .bars {
+            order: 1;
+            padding: 10px;
         }
     }
 }

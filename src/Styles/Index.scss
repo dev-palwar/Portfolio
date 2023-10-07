@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
 
-$primaryColor : #ecdc7b;
+$primaryColor : #ebdd79;
 $primaryHeading : 4.1rem;
+$buttonText: black;
 
 * {
     margin: 0;
     padding: 0;
 }
+
 
 html::-webkit-scrollbar {
     display: none;
@@ -29,6 +31,7 @@ a {
 }
 
 .container {
+    padding: 14px;
     max-width: 1180px;
     margin: auto;
     justify-content: center;

@@ -34,24 +34,24 @@ const About = () => {
             officiis veritatis aliquid nobis facilis repellendus aliquam
             dignissimos!
           </motion.p>
-          <motion.div {...animations.fade} className="skills">
-            <h2>My skills : </h2>
-            <div className="icons">
-              <AiFillHtml5 style={{ color: "orange" }} />
-              <BiLogoCss3 style={{ color: "#0256cd" }} />
-              <BiLogoJavascript style={{ color: "yellow" }} />
-              <BiLogoReact style={{ color: "deepskyblue" }} />
-              <SiRedux style={{ color: "lightblue" }} />
-              <BiLogoSass style={{ color: "#cc6699" }} />
-              <TbBrandNextjs style={{ color: "black" }} />
-              <SiTailwindcss style={{ color: "skyblue" }} />
-              <BiLogoNodejs style={{ color: "#215732" }} />
-              <SiExpress style={{ color: "yellow" }} />
-              <BiLogoMongodb style={{ color: "green" }} />
-              <SiChakraui style={{ color: "#319795" }} />
-            </div>
-          </motion.div>
         </div>
+        <motion.div {...animations.fade} className="skills">
+          <h2>My skills : </h2>
+          <div className="icons">
+            <AiFillHtml5 style={{ color: "orange" }} />
+            <BiLogoCss3 style={{ color: "#0256cd" }} />
+            <BiLogoJavascript style={{ color: "yellow" }} />
+            <BiLogoReact style={{ color: "deepskyblue" }} />
+            <SiRedux style={{ color: "lightblue" }} />
+            <BiLogoSass style={{ color: "#cc6699" }} />
+            <TbBrandNextjs style={{ color: "black" }} />
+            <SiTailwindcss style={{ color: "skyblue" }} />
+            <BiLogoNodejs style={{ color: "#215732" }} />
+            <SiExpress style={{ color: "yellow" }} />
+            <BiLogoMongodb style={{ color: "green" }} />
+            <SiChakraui style={{ color: "#319795" }} />
+          </div>
+        </motion.div>
       </div>
     </>
   );

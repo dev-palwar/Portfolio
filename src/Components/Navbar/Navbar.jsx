@@ -1,28 +1,44 @@
-import React from 'react';
-import './Style.scss';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../Navbar/Style.scss";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <nav className="navbar">
-      <Link to={'/'}>
-      <div className="navbar-logo">Dev</div>
-      </Link>
-      <ul className="navbar-menu">
-        <li className="navbar-item">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/about">About</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/work">Work</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/contact">Contact</Link>
-        </li>
+    <nav className={`navbar ${isOpen ? "active" : ""}`}>
+      <div className="navbar-brand">
+        <Link to="/"><h1>Dev.</h1></Link>
+      </div>
+      <div className="navbar-menu">
+        <ul className={`menu ${isOpen ? "active" : ""}`}>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/work">Work</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         <button>Resume</button>
-      </ul>
+        </ul>
+        <div
+          className={`hamburger ${isOpen ? "active" : ""}`}
+          onClick={toggleNavbar}
+        >
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+      </div>
     </nav>
   );
 };

@@ -13,11 +13,7 @@
     align-items: center;
 
     .details {
-        height: 55vh;
-
         >div:first-of-type {
-
-
             div {
                 display: flex;
                 align-items: center;
@@ -38,5 +34,11 @@
                 gap: 15px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 700px){
+    .form{
+        flex-direction: column;
     }
 }

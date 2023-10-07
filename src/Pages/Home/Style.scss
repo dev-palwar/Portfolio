@@ -6,7 +6,6 @@
   justify-content: space-around;
   align-items: center;
   height: 75vh;
-
   .info-section {
     display: flex;
     flex-direction: column;
@@ -15,7 +14,7 @@
 
     h1 {
       font-size: 4rem;
-      color: $primaryColor;
+      color: white;
     }
 
     h3 {
@@ -31,7 +30,6 @@
   .image-section {
     border: 2px solid;
     height: 49vh;
-    width: 21vw;
 
     img {
       height: 100%;
@@ -41,10 +39,10 @@
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
   .home{
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     overflow: hidden;
     .info-section{
       padding: 2rem;

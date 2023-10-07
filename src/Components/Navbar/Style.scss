@@ -1,49 +1,118 @@
 @import "../../Styles/Index.scss";
 
 .navbar {
-  max-width: 1180px;
-  margin: auto;
+  margin-top: 1px;
   position: sticky;
   top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  z-index: 100;
-  
-  &-logo {
-    font-size: 40px;
-    color: #fff;
+  background-color: #1b1f22;
+  color: white;
+  padding: 1rem;
+  h1{
+    color: $primaryColor;
   }
-  
-  &-menu {
-    list-style: none;
+  &.active {
+    .menu {
+      display: block;
+    }
+  }
+
+  .navbar-brand {
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+  }
+
+  .navbar-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
   }
   
-  &-item {
-    transition: all 0.3s;
-    color: #fff;
-    font-size: 19px;
-    cursor: pointer;
+  .menu {
+    align-items: center;
+    list-style: none;
+    display: flex;
 
-    &:hover {
-      color: crimson;
+    li {
+      margin-right: 1rem;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        color: $primaryColor;
+      }
     }
   }
-  button{
-    border: none;
-    border-radius: 5px;
-    color: black;
-    padding: 12px 28px;
-    background-color: $primaryColor;
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
     cursor: pointer;
-    transition: all 0.3s;
-    &:hover{
-      background-color: white;
-      color: black;
+
+    &.active {
+      .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+
+      .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
     }
+
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 3px 0;
+      transition: 0.4s;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar-menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .menu {
+      display: none;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+
+      li {
+        margin: 1rem 0;
+      }
+    }
+
+    .hamburger {
+      display: flex;
+    }
+  }
+}
+button{
+  border: none;
+  border-radius: 5px;
+  color: $buttonText;
+  padding: 12px 28px;
+  background-color: $primaryColor;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover{
+    background-color: white;
+    color: $buttonText;
   }
 }

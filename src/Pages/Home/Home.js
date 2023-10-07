@@ -11,7 +11,7 @@ const Home = () => {
       <div className="home">
         <div className="info-section">
           <motion.h1 {...animations.h1}>
-            Hey, I'm <br />
+            Hi, I am <br />
             Dev Palwar
           </motion.h1>
           <motion.h3 {...animations.fade}>A Full Stack Developer</motion.h3>
