@@ -22,21 +22,22 @@ const About = () => {
       <div className="about">
         <div className="info">
           <motion.p {...animations.fade}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            doloribus numquam est sunt enim optio beatae labore esse obcaecati
-            omnis dolor quasi natus, repellat praesentium tenetur mollitia ut
-            ratione quisquam debitis eius placeat. <br />
-            Nobis molestiae unde sequi, amet sapiente mollitia corporis cumque
-            omnis nostrum, suscipit natus ad expedita, laborum sint aliquid
-            alias! Tenetur officia eos beatae. Similique ullam saepe cumque
-            facilis odio expedita commodi sint sequi at quis! Minima, beatae,
-            consequatur et reiciendis earum eum odio unde nulla, quo id vel ex
-            officiis veritatis aliquid nobis facilis repellendus aliquam
-            dignissimos!
+            👋 Hi there! I'm Dev a passionate web developer. I have a solid
+            foundation in React, along with popular libraries like Redux for
+            managing application state and Framer Motion for adding captivating
+            animations to web projects. I'm also skilled in using CSS frameworks
+            such as Tailwind CSS and Chakra UI to style components and create
+            user-friendly layouts. 🌐 In addition to my frontend expertise, I
+            have a decent understanding of backend technologies like Node.js and
+            Express.js. This knowledge enables me to collaborate effectively
+            with backend teams, bridging the gap between the front and back ends
+            of web development projects. 🚀 I'm excited to continue my journey
+            in the tech world, eager to learn and contribute to innovative
+            projects. Let's connect and explore opportunities together!
           </motion.p>
         </div>
         <motion.div {...animations.fade} className="skills">
-          <h2>My skills : </h2>
+          <h2>Stuff i know : </h2>
           <div className="icons">
             <AiFillHtml5 style={{ color: "orange" }} />
             <BiLogoCss3 style={{ color: "#0256cd" }} />

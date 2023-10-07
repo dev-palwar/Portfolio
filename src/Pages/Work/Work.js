@@ -1,16 +1,14 @@
 import React from "react";
 import "../Work/Style.scss";
-import { motion } from "framer-motion";
 import Card from "../../Components/Card/Card";
 import Data from "../../Assets/Data.json";
 import Heading from "../../Components/Heading/Heading";
-import { animations } from "../../Styles/Animations/Animations";
 
 const Work = () => {
   return (
     <div className="work">
-      <Heading Heading={"my work"}/>
-      <motion.div {...animations.fade} className="cards">
+      <Heading Heading={"my work"} />
+      <div className="cards">
         {Data.map((value) => {
           return (
             <Card
@@ -22,7 +20,7 @@ const Work = () => {
             />
           );
         })}
-      </motion.div>
+      </div>
     </div>
   );
 };

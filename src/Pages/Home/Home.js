@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Home/Style.scss";
 import { motion } from "framer-motion";
 import sanji from "../../Assets/sanji.jpg";
@@ -16,9 +17,8 @@ const Home = () => {
           </motion.h1>
           <motion.h3 {...animations.fade}>A Full Stack Developer</motion.h3>
           <motion.p {...animations.fade}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem ad iusto voluptatum rem eligendi nesciunt, fugit
-            fugiat sit quidem quos!
+            If you'd like to collaborate or have any questions, <br /> feel free to
+            reach out to me. I'm excited to connect with you!
           </motion.p>
           <Socials />
         </div>

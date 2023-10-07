@@ -11,9 +11,12 @@
         height: 30vh;
         margin-bottom: 10px;
         border: 3px solid $primaryColor;
-
+        .loaded{
+            filter: blur(0);
+        }
         img {
-            transition: all 0.2s;
+            transition: all 0.4s;
+            filter: blur(100px);
             overflow: hidden;
             height: 100%;
             width: 100%;
