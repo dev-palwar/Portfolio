@@ -1,7 +1,8 @@
 import React from "react";
-import "../Socials/Style.scss"
+import "../Socials/Style.scss";
 import {
   AiFillLinkedin,
+  AiFillMail,
   AiFillTwitterCircle,
   AiOutlineGithub,
 } from "react-icons/ai";

@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isOpen ? "active" : ""}`}>
       <div className="navbar-brand">
-        <Link to="/"><h1>Dev.</h1></Link>
+        <Link to="/">
+          <h1>Dev.</h1>
+        </Link>
       </div>
       <div className="navbar-menu">
         <ul className={`menu ${isOpen ? "active" : ""}`}>
@@ -26,7 +28,9 @@ const Navbar = () => {
             <Link to="/work">Work</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a href="mailto: devpalwar06@gmail.com" target="_blank">
+              <button>Hire me</button>
+            </a>
           </li>
         </ul>
         <div

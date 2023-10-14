@@ -3,11 +3,6 @@ import "../Contact/Style.scss";
 import { motion } from "framer-motion";
 import { BiSolidMessage, BiSolidPhone } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
-import {
-  AiFillFacebook,
-  AiFillGithub,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
 import Heading from "../../Components/Heading/Heading";
 import { animations } from "../../Styles/Animations/Animations";
 import Socials from "../../Components/Socials/Socials";
