@@ -15,17 +15,17 @@
     },
     {
         "id": 3,
+        "img" : "https://i.ibb.co/vs8mq3c/Screenshot-2023-11-24-at-19-00-54-https-blogyapp-vercel-app.png",
+        "heading": "Bloggy",
+        "link": "https://blogyapp.vercel.app/",
+        "github": "https://github.com/dev-palwar/Blogging-application-frontend"
+    },
+    {
+        "id": 4,
         "img" : "https://i.ibb.co/6y4SsT9/Sidclub.png",
         "heading": "Sidclub golf website",
         "link": "https://sidclub-golf-website.vercel.app",
         "github": "https://github.com/dev-palwar/Sidclub-golf-website"
-    },
-    {
-        "id": 4,
-        "img" : "https://i.ibb.co/crGjqg4/Snap.png",
-        "heading": "Snap",
-        "link": "https://snap-ashen.vercel.app",
-        "github": "https://github.com/dev-palwar/Intro-section-with-dropdown-navigation"
     },
     {
         "id": 5,

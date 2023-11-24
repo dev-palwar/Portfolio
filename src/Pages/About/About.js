@@ -7,11 +7,13 @@ import {
   BiLogoMongodb,
   BiLogoNodejs,
   BiLogoReact,
+  BiLogoGraphql,
+  BiLogoTypescript,
   BiLogoSass,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { AiFillHtml5 } from "react-icons/ai";
-import { SiChakraui, SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
 import Heading from "../../Components/Heading/Heading";
 import { animations } from "../../Styles/Animations/Animations";
 
@@ -45,12 +47,13 @@ const About = () => {
             <BiLogoReact style={{ color: "deepskyblue" }} />
             <SiRedux style={{ color: "lightblue" }} />
             <BiLogoSass style={{ color: "#cc6699" }} />
-            <TbBrandNextjs style={{ color: "black" }} />
+            <TbBrandNextjs style={{ color: "cornsilk" }} />
             <SiTailwindcss style={{ color: "skyblue" }} />
-            <BiLogoNodejs style={{ color: "#215732" }} />
+            <BiLogoNodejs style={{ color: "greenyellow" }} />
             <SiExpress style={{ color: "yellow" }} />
             <BiLogoMongodb style={{ color: "green" }} />
-            <SiChakraui style={{ color: "#319795" }} />
+            <BiLogoTypescript style={{ color: "#007acc" }} />
+            <BiLogoGraphql style={{ color: "#e535ab " }} />
           </div>
         </motion.div>
       </div>
