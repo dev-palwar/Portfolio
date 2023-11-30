@@ -6,3 +6,13 @@ const Loader = () => {
 };
 
 export default Loader;
+
+export const LoadMore = ({ heading, onClick }) => {
+  return (
+    <div className="card" onClick={onClick}>
+      {/* Your card content here */}
+      <h3>{heading}</h3>
+      {/* Other card content */}
+    </div>
+  );
+};
