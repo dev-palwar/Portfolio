@@ -7,7 +7,6 @@ import { LoadMore } from "../../Components/Loader/Loader";
 import { motion } from "framer-motion";
 
 import {
-  BiLogoCss3,
   BiLogoJavascript,
   BiLogoMongodb,
   BiLogoNodejs,
@@ -50,10 +49,6 @@ const Work = () => {
           display: display,
         }}
       >
-        <BiLogoCss3
-          style={{ color: "#0256cd", cursor: "pointer" }}
-          onClick={() => filterProjectsBySkill("css")}
-        />
         <BiLogoJavascript
           style={{ color: "yellow", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("javascript")}
