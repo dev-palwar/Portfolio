@@ -1,8 +1,10 @@
 import React from "react";
 import "../About/Style.scss";
 import { motion } from "framer-motion";
+import Heading from "../../Components/Heading/Heading";
+import { animations } from "../../Styles/Animations/Animations";
+
 import {
-  BiLogoCss3,
   BiLogoJavascript,
   BiLogoMongodb,
   BiLogoNodejs,
@@ -12,10 +14,7 @@ import {
   BiLogoSass,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { AiFillHtml5 } from "react-icons/ai";
-import { SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
-import Heading from "../../Components/Heading/Heading";
-import { animations } from "../../Styles/Animations/Animations";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 
 const About = () => {
   return (
@@ -41,11 +40,8 @@ const About = () => {
         <motion.div {...animations.fade} className="skills">
           <h2>Stuff i know : </h2>
           <div className="icons">
-            <AiFillHtml5 style={{ color: "orange" }} />
-            <BiLogoCss3 style={{ color: "#0256cd" }} />
             <BiLogoJavascript style={{ color: "yellow" }} />
             <BiLogoReact style={{ color: "deepskyblue" }} />
-            <SiRedux style={{ color: "lightblue" }} />
             <BiLogoSass style={{ color: "#cc6699" }} />
             <TbBrandNextjs style={{ color: "cornsilk" }} />
             <SiTailwindcss style={{ color: "skyblue" }} />

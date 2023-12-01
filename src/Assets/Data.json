@@ -1,138 +1,136 @@
 [
-    {   
+    {
         "id": 1,
-        "img" : "https://i.ibb.co/sP9Dkhw/reelink.png",
+        "img": "https://i.ibb.co/Tq6tH28/Screenshot-2023-12-01-at-17-08-27-Home.png",
         "heading": "Movies-app",
         "link": "https://reelink.vercel.app",
         "github": "https://github.com/dev-palwar/Movie-app",
-        "tech_Stack": ["react", "sass", "expressjs", "mongodb", "nodejs"]
+        "tech_Stack": [
+            "react",
+            "sass",
+            "expressjs",
+            "mongodb",
+            "nodejs"
+        ]
     },
     {
         "id": 2,
-        "img" : "https://i.ibb.co/K79tQjk/Screenshot-2023-11-30-at-21-01-17-Audiophile.png",
+        "img": "https://i.ibb.co/K79tQjk/Screenshot-2023-11-30-at-21-01-17-Audiophile.png",
         "heading": "Audiophile e-comm website",
         "link": "https://audiophile-react.vercel.app",
         "github": "https://github.com/dev-palwar/Audiophile-react",
-        "tech_Stack": ["react", "tailwindcss", "redux"]
+        "tech_Stack": [
+            "react",
+            "tailwindcss",
+            "redux"
+        ]
     },
     {
         "id": 3,
-        "img" : "https://i.ibb.co/88KSgrF/Screenshot-2023-11-30-at-21-02-34-https-blogyapp-vercel-app.png",
+        "img": "https://i.ibb.co/88KSgrF/Screenshot-2023-11-30-at-21-02-34-https-blogyapp-vercel-app.png",
         "heading": "Bloggy",
         "link": "https://blogyapp.vercel.app/",
         "github": "https://github.com/dev-palwar/Blogging-application-frontend",
-        "tech_Stack": ["nextjs", "tailwindcss", "mongodb", "graphql", "typescript", "nodejs"]
+        "tech_Stack": [
+            "nextjs",
+            "tailwindcss",
+            "mongodb",
+            "graphql",
+            "typescript"
+        ]
     },
     {
         "id": 4,
-        "img" : "https://i.ibb.co/6y4SsT9/Sidclub.png",
-        "heading": "Sidclub golf website",
-        "link": "https://sidclub-golf-website.vercel.app",
-        "github": "https://github.com/dev-palwar/Sidclub-golf-website",
-        "tech_Stack": ["react", "sass"]
-    },
-    {
-        "id": 7,
-        "img" : "https://nooblinux.com/wp-content/uploads/2023/03/anipy-cli-WatchDownload-Anime-Free-via-Terminal-in-Linux-1-768x432.png",
+        "img": "https://nooblinux.com/wp-content/uploads/2023/03/anipy-cli-WatchDownload-Anime-Free-via-Terminal-in-Linux-1-768x432.png",
         "heading": ">_ Anime cli",
         "link": "https://github.com/dev-palwar/Anime-cli",
         "github": "https://github.com/dev-palwar/Anime-cli",
-        "tech_Stack": ["nodejs"]
+        "tech_Stack": [
+            "nodejs"
+        ]
     },
     {
         "id": 5,
-        "img" : "https://i.ibb.co/7CbJV0h/DCrypto.png",
+        "img": "https://i.ibb.co/7CbJV0h/DCrypto.png",
         "heading": "DCrypto",
         "link": "https://react-crypto-app1.vercel.app",
         "github": "https://github.com/dev-palwar/react-crypto-app",
-        "tech_Stack": ["react"]
-    },
-    {
-        "id": 8,
-        "img" : "https://i.ibb.co/crGjqg4/Snap.png",
-        "heading": "Snap",
-        "link": "https://snap-ashen.vercel.app",
-        "github": "https://github.com/dev-palwar/Intro-section-with-dropdown-navigation",
-        "tech_Stack": ["react"]
-    },
-    {
-        "id": 9,
-        "img" : "https://i.ibb.co/9TF83x3/Screenshot-2023-11-30-at-19-51-29-Easy-bank.png",
-        "heading": "Easy Bank Landing Page",
-        "link": "https://dev-palwar.github.io/Easybank_landingPage/",
-        "github": "https://github.com/dev-palwar/Easybank_landingPage",
-        "tech_Stack": ["react", "sass"]
-    },
-    {
-        "id": 10,
-        "img" : "https://i.ibb.co/b3r13Cb/Screenshot-2023-11-30-at-20-01-39-React-App.png",
-        "heading": "E-comm website",
-        "link": "https://mini-e-eomerce-app.vercel.app/",
-        "github": "https://github.com/dev-palwar/react-mini-eCommerce-app",
-        "tech_Stack": ["react", "redux"]
+        "tech_Stack": [
+            "react",
+            "chakraui"
+        ]
     },
     {
         "id": 6,
-        "img" : "https://i.ibb.co/Jky0TYy/Typing.png",
+        "img": "https://i.ibb.co/9TF83x3/Screenshot-2023-11-30-at-19-51-29-Easy-bank.png",
+        "heading": "Easy Bank Landing Page",
+        "link": "https://dev-palwar.github.io/Easybank_landingPage/",
+        "github": "https://github.com/dev-palwar/Easybank_landingPage",
+        "tech_Stack": [
+            "sass"
+        ]
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/b3r13Cb/Screenshot-2023-11-30-at-20-01-39-React-App.png",
+        "heading": "E-comm website",
+        "link": "https://mini-e-eomerce-app.vercel.app/",
+        "github": "https://github.com/dev-palwar/react-mini-eCommerce-app",
+        "tech_Stack": [
+            "react",
+            "redux",
+            "chakraui",
+            "framer motion"
+        ]
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/Jky0TYy/Typing.png",
         "heading": "Typing tester",
         "link": "https://typing-tester-rho.vercel.app",
         "github": "https://github.com/dev-palwar/Typing-tester",
-        "tech_Stack": ["javascript"]
+        "tech_Stack": [
+            "javascript"
+        ]
     },
     {
-        "id": 11,
-        "img" : "https://i.ibb.co/m8tGb4X/Screenshot-2023-11-30-at-20-08-03-To-dos.png",
+        "id": 9,
+        "img": "https://i.ibb.co/m8tGb4X/Screenshot-2023-11-30-at-20-08-03-To-dos.png",
         "heading": "To-do app",
         "link": "https://to-do0.vercel.app/",
         "github": "https://github.com/dev-palwar/To-do_list-app",
-        "tech_Stack": ["javascript"]
+        "tech_Stack": [
+            "javascript"
+        ]
     },
     {
-        "id": 12,
-        "img" : "https://i.ibb.co/dmn1VL2/Screenshot-2023-11-30-at-20-14-20-Dictionary.png",
+        "id": 10,
+        "img": "https://i.ibb.co/dmn1VL2/Screenshot-2023-11-30-at-20-14-20-Dictionary.png",
         "heading": "Dictionary app",
         "link": "https://dev-palwar.github.io/DictionaryApp/",
         "github": "https://github.com/dev-palwar/DictionaryApp",
-        "tech_Stack": ["javascript"]
+        "tech_Stack": [
+            "javascript"
+        ]
     },
     {
-        "id": 13,
-        "img" : "https://i.ibb.co/6JdDZjS/Screenshot-2023-11-30-at-20-18-20-Thumbnail-download.png",
+        "id": 11,
+        "img": "https://i.ibb.co/6JdDZjS/Screenshot-2023-11-30-at-20-18-20-Thumbnail-download.png",
         "heading": "Youtube thumbnail downloader",
         "link": "https://dev-palwar.github.io/Thumbnail-downloader/",
         "github": "https://github.com/dev-palwar/Thumbnail-downloader",
-        "tech_Stack": ["javascript"]
+        "tech_Stack": [
+            "javascript"
+        ]
     },
     {
-        "id": 17,
-        "img" : "https://i.ibb.co/XJvymzR/Screenshot-2023-11-30-at-20-42-54-Dev-s-Library.png",
+        "id": 12,
+        "img": "https://i.ibb.co/XJvymzR/Screenshot-2023-11-30-at-20-42-54-Dev-s-Library.png",
         "heading": "Library app",
         "link": "https://dev-palwar.github.io/simple_libraryApp/?type=manga",
         "github": "https://github.com/dev-palwar/simple_libraryApp",
-        "tech_Stack": ["javascript"]
-    },
-    {
-        "id": 14,
-        "img" : "https://i.ibb.co/pRyM9g1/Screenshot-2023-11-30-at-20-31-13-Footer.png",
-        "heading": "Cool footer design",
-        "link": "https://dev-palwar.github.io/coolFooterDesign/",
-        "github": "https://github.com/dev-palwar/coolFooterDesign",
-        "tech_Stack": ["css"]
-    },
-    {
-        "id": 15,
-        "img" : "https://i.ibb.co/gFH2jT4/Screenshot-2023-11-30-at-20-35-10-Document.png",
-        "heading": "Dummy static site",
-        "link": "https://dev-palwar.github.io/dummy_staticSite/",
-        "github": "https://github.com/dev-palwar/dummy_staticSite",
-        "tech_Stack": ["css"]
-    },
-    {
-        "id": 16,
-        "img" : "https://i.ibb.co/thgzjyN/Screenshot-2023-11-30-at-20-38-29-Netflix.png",
-        "heading": "Netflix landing page",
-        "link": "https://dev-palwar.github.io/Netflix_landingPage/",
-        "github": "https://github.com/dev-palwar/Netflix_landingPage",
-        "tech_Stack": ["css"]
+        "tech_Stack": [
+            "javascript"
+        ]
     }
 ]

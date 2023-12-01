@@ -51,47 +51,47 @@ const Work = () => {
         }}
       >
         <BiLogoCss3
-          style={{ color: "#0256cd", cursor: 'pointer' }}
+          style={{ color: "#0256cd", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("css")}
         />
         <BiLogoJavascript
-          style={{ color: "yellow", cursor: 'pointer' }}
+          style={{ color: "yellow", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("javascript")}
         />
         <BiLogoReact
-          style={{ color: "deepskyblue", cursor: 'pointer' }}
+          style={{ color: "deepskyblue", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("react")}
         />
         <BiLogoSass
-          style={{ color: "#cc6699", cursor: 'pointer' }}
+          style={{ color: "#cc6699", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("sass")}
         />
         <TbBrandNextjs
-          style={{ color: "cornsilk", cursor: 'pointer' }}
+          style={{ color: "cornsilk", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("nextjs")}
         />
         <SiTailwindcss
-          style={{ color: "skyblue", cursor: 'pointer' }}
+          style={{ color: "skyblue", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("tailwindcss")}
         />
         <BiLogoNodejs
-          style={{ color: "greenyellow", cursor: 'pointer' }}
+          style={{ color: "greenyellow", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("nodejs")}
         />
         <SiExpress
-          style={{ color: "yellow", cursor: 'pointer' }}
+          style={{ color: "yellow", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("expressjs")}
         />
         <BiLogoMongodb
-          style={{ color: "green", cursor: 'pointer' }}
+          style={{ color: "green", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("mongodb")}
         />
         <BiLogoTypescript
-          style={{ color: "#007acc", cursor: 'pointer' }}
+          style={{ color: "#007acc", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("typescript")}
         />
         <BiLogoGraphql
-          style={{ color: "#e535ab ", cursor: 'pointer' }}
+          style={{ color: "#e535ab ", cursor: "pointer" }}
           onClick={() => filterProjectsBySkill("graphql")}
         />
       </motion.div>
@@ -107,7 +107,7 @@ const Work = () => {
         ))}
         {!showAllProjects && (
           <LoadMore
-            key={32}
+            image={Data[5].img}
             heading={"Show More"}
             onClick={handleShowAllProjects}
             // You can customize the appearance of the "Show More" card

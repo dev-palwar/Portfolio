@@ -1,7 +1,7 @@
 import React from "react";
 import "../Home/Style.scss";
 import { motion } from "framer-motion";
-import sanji from "../../Assets/Images/sanji.jpg";
+import sanji from "../../Assets/Images/mek.jpg";
 import { animations } from "../../Styles/Animations/Animations";
 import Socials from "../../Components/Socials/Socials";
 

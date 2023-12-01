@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../Navbar/Style.scss";
 
 const Navbar = () => {
@@ -8,6 +8,12 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+  const navLinks = [
+    { to: "/", text: "Home" },
+    { to: "/about", text: "About me" },
+    { to: "/work", text: "Work" },
+  ];
 
   return (
     <nav className={`navbar ${isOpen ? "active" : ""}`}>
@@ -18,17 +24,20 @@ const Navbar = () => {
       </div>
       <div className="navbar-menu">
         <ul className={`menu ${isOpen ? "active" : ""}`}>
+          {navLinks.map(({ to, text }) => (
+            <li key={to}>
+              <NavLink
+                to={to}
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active-link" : ""
+                }
+              >
+                {text}
+              </NavLink>
+            </li>
+          ))}
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About me</Link>
-          </li>
-          <li>
-            <Link to="/work">Work</Link>
-          </li>
-          <li>
-            <a href="mailto: devpalwar06@gmail.com" target="_blank">
+            <a href="mailto:devpalwar06@gmail.com" target="_blank">
               <button>Hire me</button>
             </a>
           </li>

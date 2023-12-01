@@ -1,61 +1,43 @@
 import React from "react";
+import {
+  BiLogoJavascript,
+  BiLogoMongodb,
+  BiLogoNodejs,
+  BiLogoReact,
+  BiLogoGraphql,
+  BiLogoTypescript,
+  BiLogoSass,
+} from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 
-const Icons = () => {
-  return (
-    <div>
-      <motion.div
-        className="icons"
-        {...animations.bar}
-        style={{
-          fontSize: "3rem",
-          justifyContent: "center",
-          marginBottom: "2rem",
-          display: display,
-        }}
-      >
-        <BiLogoReact
-          style={{ color: "deepskyblue" }}
-          onClick={() => filterProjectsBySkill("react")}
-        />
-        <SiRedux
-          style={{ color: "lightblue" }}
-          onClick={() => filterProjectsBySkill("redux")}
-        />
-        <BiLogoSass
-          style={{ color: "#cc6699" }}
-          onClick={() => filterProjectsBySkill("sass")}
-        />
-        <TbBrandNextjs
-          style={{ color: "cornsilk" }}
-          onClick={() => filterProjectsBySkill("nextjs")}
-        />
-        <SiTailwindcss
-          style={{ color: "skyblue" }}
-          onClick={() => filterProjectsBySkill("tailwindcss")}
-        />
-        <BiLogoNodejs
-          style={{ color: "greenyellow" }}
-          onClick={() => filterProjectsBySkill("nodejs")}
-        />
-        <SiExpress
-          style={{ color: "yellow" }}
-          onClick={() => filterProjectsBySkill("expressjs")}
-        />
-        <BiLogoMongodb
-          style={{ color: "green" }}
-          onClick={() => filterProjectsBySkill("mongodb")}
-        />
-        <BiLogoTypescript
-          style={{ color: "#007acc" }}
-          onClick={() => filterProjectsBySkill("typescript")}
-        />
-        <BiLogoGraphql
-          style={{ color: "#e535ab " }}
-          onClick={() => filterProjectsBySkill("graphql")}
-        />
-      </motion.div>
-    </div>
-  );
-};
-
-export default Icons;
+export const JavascriptIcon = () => (
+  <BiLogoJavascript style={{ color: "yellow" }} skill="javascript" />
+);
+export const ReactIcon = () => (
+  <BiLogoReact style={{ color: "deepskyblue" }} skill="react" />
+);
+export const SassIcon = () => (
+  <BiLogoSass style={{ color: "#cc6699" }} skill="sass" />
+);
+export const NextjsIcon = () => (
+  <TbBrandNextjs style={{ color: "cornsilk" }} skill="nextjs" />
+);
+export const TailwindCssIcon = () => (
+  <SiTailwindcss style={{ color: "skyblue" }} skill="tailwindcss" />
+);
+export const NodejsIcon = () => (
+  <BiLogoNodejs style={{ color: "greenyellow" }} skill="nodejs" />
+);
+export const ExpressIcon = () => (
+  <SiExpress style={{ color: "yellow" }} skill="expressjs" />
+);
+export const MongodbIcon = () => (
+  <BiLogoMongodb style={{ color: "green" }} skill="mongodb" />
+);
+export const TypescriptIcon = () => (
+  <BiLogoTypescript style={{ color: "#007acc" }} skill="typescript" />
+);
+export const GraphqlIcon = () => (
+  <BiLogoGraphql style={{ color: "#e535ab" }} skill="graphql" />
+);

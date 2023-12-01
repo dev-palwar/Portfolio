@@ -8,12 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b1f22;
+  background-color: $backgroundColor;
   color: white;
   padding: 1rem;
-  h1{
+
+  h1 {
     color: $primaryColor;
   }
+
   &.active {
     .menu {
       display: block;
@@ -32,11 +34,15 @@
     display: flex;
     align-items: center;
   }
-  
+
   .menu {
     align-items: center;
     list-style: none;
     display: flex;
+
+    .active-link {
+      color: $primaryColor;
+    }
 
     li {
       margin-right: 1rem;
@@ -103,7 +109,8 @@
     }
   }
 }
-button{
+
+button {
   border: none;
   border-radius: 5px;
   color: $buttonText;
@@ -111,7 +118,8 @@ button{
   background-color: $primaryColor;
   cursor: pointer;
   transition: all 0.3s;
-  &:hover{
+
+  &:hover {
     background-color: white;
     color: $buttonText;
   }

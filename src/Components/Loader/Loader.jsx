@@ -7,12 +7,15 @@ const Loader = () => {
 
 export default Loader;
 
-export const LoadMore = ({ heading, onClick }) => {
+export const LoadMore = ({ heading, image, onClick }) => {
   return (
-    <div className="card" onClick={onClick}>
-      {/* Your card content here */}
-      <h3>{heading}</h3>
-      {/* Other card content */}
+    <div className="LoadMore card" onClick={onClick}>
+      <div>
+        <img src={image} alt={heading} />
+      </div>
+      <div>
+        <h3>{heading}</h3>
+      </div>
     </div>
   );
 };

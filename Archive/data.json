@@ -1,0 +1,56 @@
+[
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/6y4SsT9/Sidclub.png",
+        "heading": "Sidclub golf website",
+        "link": "https://sidclub-golf-website.vercel.app",
+        "github": "https://github.com/dev-palwar/Sidclub-golf-website",
+        "tech_Stack": [
+            "chakraui",
+            "framer motion",
+            "react"
+        ]
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/crGjqg4/Snap.png",
+        "heading": "Snap",
+        "link": "https://snap-ashen.vercel.app",
+        "github": "https://github.com/dev-palwar/Intro-section-with-dropdown-navigation",
+        "tech_Stack": [
+            "react",
+            "framer motion",
+            "chakraui"
+        ]
+    },
+    {
+        "id": 13,
+        "img": "https://i.ibb.co/pRyM9g1/Screenshot-2023-11-30-at-20-31-13-Footer.png",
+        "heading": "Cool footer design",
+        "link": "https://dev-palwar.github.io/coolFooterDesign/",
+        "github": "https://github.com/dev-palwar/coolFooterDesign",
+        "tech_Stack": [
+            "css"
+        ]
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co/gFH2jT4/Screenshot-2023-11-30-at-20-35-10-Document.png",
+        "heading": "Dummy static site",
+        "link": "https://dev-palwar.github.io/dummy_staticSite/",
+        "github": "https://github.com/dev-palwar/dummy_staticSite",
+        "tech_Stack": [
+            "css"
+        ]
+    },
+    {
+        "id": 15,
+        "img": "https://i.ibb.co/thgzjyN/Screenshot-2023-11-30-at-20-38-29-Netflix.png",
+        "heading": "Netflix landing page",
+        "link": "https://dev-palwar.github.io/Netflix_landingPage/",
+        "github": "https://github.com/dev-palwar/Netflix_landingPage",
+        "tech_Stack": [
+            "css"
+        ]
+    }
+]

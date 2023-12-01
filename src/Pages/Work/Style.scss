@@ -4,21 +4,9 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 2rem;
-        height: 65vh;
+        height: 80vh;
         overflow: scroll;
         scrollbar-width: thin;
         scrollbar-color: transparent transparent;
     }
-}
-
-
-.temp {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    height: 65vh;
-    overflow: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
 }
