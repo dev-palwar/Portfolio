@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className={`navbar ${isOpen ? "active" : ""}`}>
       <div className="navbar-brand">
         <Link to="/">
-          <h1>Dev.</h1>
+          <h1 style={{ display: 'none' }}>Dev.</h1>
         </Link>
       </div>
       <div className="navbar-menu">
