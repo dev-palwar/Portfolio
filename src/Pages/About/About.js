@@ -23,18 +23,17 @@ const About = () => {
       <div className="about">
         <div className="info">
           <motion.p {...animations.fade}>
-            👋 Hi there! I'm Dev a passionate web developer. I have a solid
-            foundation in React, along with popular libraries like Redux for
-            managing application state and Framer Motion for adding captivating
-            animations to web projects. I'm also skilled in using CSS frameworks
-            such as Tailwind CSS and Chakra UI to style components and create
-            user-friendly layouts. 🌐 In addition to my frontend expertise, I
-            have a decent understanding of backend technologies like Node.js and
-            Express.js. This knowledge enables me to collaborate effectively
-            with backend teams, bridging the gap between the front and back ends
-            of web development projects. 🚀 I'm excited to continue my journey
-            in the tech world, eager to learn and contribute to innovative
-            projects. Let's connect and explore opportunities together!
+            👋 Hi there! I'm Dev a passionate web developer. I have a strong
+            background in frontend development using React and typescript, as
+            well as experience with various JavaScript and CSS libraries and
+            frameworks such as Next.JS and Tailwind. 🌐 In addition to my
+            frontend expertise, I have a decent understanding of backend
+            technologies like Node.js and Express.js. This knowledge enables me
+            to collaborate effectively with backend teams, bridging the gap
+            between the front and back ends of web development projects. 🚀 I'm
+            excited to continue my journey in the tech world, eager to learn and
+            contribute to innovative projects. Let's connect and explore
+            opportunities together!
           </motion.p>
         </div>
         <motion.div {...animations.fade} className="skills">

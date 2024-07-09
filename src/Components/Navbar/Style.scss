@@ -52,9 +52,11 @@
       color: white;
       text-decoration: none;
       font-weight: bold;
+      transition: all 0.3s;
 
       &:hover {
         color: $primaryColor;
+        font-size: 14px;
       }
     }
   }

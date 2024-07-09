@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className={`navbar ${isOpen ? "active" : ""}`}>
       <div className="navbar-brand">
         <Link to="/">
-          <h1 style={{ display: 'none' }}>Dev.</h1>
+          <h1 style={{ display: "none" }}>Dev.</h1>
         </Link>
       </div>
       <div className="navbar-menu">
@@ -37,7 +37,11 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="mailto:devpalwar06@gmail.com" target="_blank">
+            <a
+              href="mailto:devpalwar06@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>Hire me</button>
             </a>
           </li>

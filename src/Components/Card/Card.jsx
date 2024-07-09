@@ -14,7 +14,7 @@ const Card = ({ heading, image, url, github }) => {
     <div className="card">
       <div className="image-section">
         {!isImageLoaded && <Loader />}
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <img
             className={`${isImageLoaded ? "loaded" : ""}`}
             src={image}
@@ -25,7 +25,7 @@ const Card = ({ heading, image, url, github }) => {
       </div>
       <div className="info">
         <h3>{heading}</h3>
-        <a href={github} target="_blank" className="buttons">
+        <a href={github} target="_blank" className="buttons" rel="noreferrer">
           <AiFillGithub />
         </a>
       </div>

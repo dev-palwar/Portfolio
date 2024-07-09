@@ -5,15 +5,20 @@
     overflow: hidden;
     cursor: pointer;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
 
     .image-section {
         overflow: hidden;
         height: 30vh;
-        margin-bottom: 10px;
-        border: 3px solid $primaryColor;
-        .loaded{
+        border: 1px solid;
+
+        .loaded {
             filter: blur(0);
         }
+
         img {
             transition: all 0.4s;
             filter: blur(100px);
@@ -32,7 +37,7 @@
     .info {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
 
         h3 {

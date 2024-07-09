@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Work/Style.scss";
 import Card from "../../Components/Card/Card";
-import Data from "../../Assets/Data.json";
+import Data from "../../Assets/project-data.json";
 import Heading from "../../Components/Heading/Heading";
 import { LoadMore } from "../../Components/Loader/Loader";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ import {
   BiLogoSass,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 import { animations } from "../../Styles/Animations/Animations";
 
 const Work = () => {
@@ -35,6 +35,13 @@ const Work = () => {
       Data.filter((project) => project.tech_Stack.includes(skill))
     );
   };
+
+  setTimeout(() => {
+    window.scrollTo({
+      top: 199,
+      behavior: "smooth",
+    });
+  }, 200);
 
   return (
     <div className="work">
@@ -105,7 +112,6 @@ const Work = () => {
             image={Data[5].img}
             heading={"Show More"}
             onClick={handleShowAllProjects}
-            // You can customize the appearance of the "Show More" card
           />
         )}
       </div>
