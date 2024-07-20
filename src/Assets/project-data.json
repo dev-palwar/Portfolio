@@ -97,10 +97,11 @@
         "id": 9,
         "img": "https://i.ibb.co/m8tGb4X/Screenshot-2023-11-30-at-20-08-03-To-dos.png",
         "heading": "To-do app",
-        "link": "https://to-do0.vercel.app/",
+        "link": "https://mytodolistapp0.vercel.app/",
         "github": "https://github.com/dev-palwar/To-do_list-app",
         "tech_Stack": [
-            "javascript"
+            "javascript",
+            "webpack"
         ]
     },
     {

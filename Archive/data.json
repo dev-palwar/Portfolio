@@ -13,9 +13,9 @@
     },
     {
         "id": 8,
-        "img": "https://i.ibb.co/crGjqg4/Snap.png",
+        "img": "https://i.ibb.co/DWfRW7s/Screenshot-2024-07-20-190104.png",
         "heading": "Snap",
-        "link": "https://snap-ashen.vercel.app",
+        "link": "https://snap-ashen.vercel.app/",
         "github": "https://github.com/dev-palwar/Intro-section-with-dropdown-navigation",
         "tech_Stack": [
             "react",

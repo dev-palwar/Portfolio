@@ -1,7 +1,7 @@
 import React from "react";
 import "../Contact/Style.scss";
 import { motion } from "framer-motion";
-import { BiSolidMessage, BiSolidPhone } from "react-icons/bi";
+import { BiSolidMessage } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
 import Heading from "../../Components/Heading/Heading";
 import { animations } from "../../Styles/Animations/Animations";
@@ -21,10 +21,6 @@ const Contact = () => {
               <div>
                 <BiSolidMessage />
                 devpalwar06@gmail.com
-              </div>
-              <div>
-                <BiSolidPhone />
-                7891616563
               </div>
               <div>
                 <HiLocationMarker />

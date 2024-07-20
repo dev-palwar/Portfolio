@@ -30,11 +30,12 @@
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    border: 2px solid yellowgreen;
+    border: 2px solid $primaryColor;
     padding: 10px;
-    box-shadow: 10px 10px $backgroundColor;
-    h3{
-      color: $backgroundColor;
+    box-shadow: 10px 10px $primaryColor;
+
+    h3 {
+      color: blueviolet;
     }
   }
 }

@@ -6,26 +6,32 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 
+const socialIcons = [
+  {
+    Component: AiOutlineGithub,
+    color: "#4078c0",
+    link: "https://github.com/dev-palwar",
+  },
+  {
+    Component: AiFillTwitterCircle,
+    color: "#26a7de",
+    link: "https://twitter.com/dev_palwar2",
+  },
+  {
+    Component: AiFillLinkedin,
+    color: "#0072b1",
+    link: "https://www.linkedin.com/in/dev-palwar/",
+  },
+];
+
 const Socials = () => {
   return (
     <div className="icons">
-      <a href="https://github.com/dev-palwar" target="_blank" rel="noreferrer">
-        <AiOutlineGithub style={{ color: "#4078c0" }} />
-      </a>
-      <a
-        href="https://twitter.com/dev_palwar2"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <AiFillTwitterCircle style={{ color: "#26a7de " }} />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/dev-palwar/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <AiFillLinkedin style={{ color: "#0072b1 " }} />
-      </a>
+      {socialIcons.map(({ Component, color, link }, index) => (
+        <a href={link} target="_blank" rel="noreferrer" key={index}>
+          <Component style={{ color }} />
+        </a>
+      ))}
     </div>
   );
 };
