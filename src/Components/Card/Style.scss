@@ -1,18 +1,20 @@
 @import "../../Styles/Index.scss";
 
 .card {
-    max-width: 50vh;
+    // max-width: 50vh;
     overflow: hidden;
     cursor: pointer;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    flex-basis: 24rem;
     margin-bottom: 1rem;
 
     .image-section {
+        display: flex;
+        flex-basis: 13rem;
         overflow: hidden;
-        height: 30vh;
         border: 1px solid;
 
         .loaded {
