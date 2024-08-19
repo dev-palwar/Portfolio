@@ -133,5 +133,15 @@
         "tech_Stack": [
             "javascript"
         ]
+    },
+    {
+        "id": 13,
+        "img": "https://d317jr06u12xtj.cloudfront.net/2023/01/Top-Chrome-Extensions-Social.png",
+        "heading": "Text Translator Extension",
+        "link": "https://github.com/dev-palwar/translate-extension",
+        "github": "https://github.com/dev-palwar/translate-extension",
+        "tech_Stack": [
+            "javascript"
+        ]
     }
 ]
