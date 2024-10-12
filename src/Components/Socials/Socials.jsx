@@ -1,26 +1,28 @@
 import React from "react";
 import "../Socials/Style.scss";
 import {
-  AiFillLinkedin,
-  AiFillTwitterCircle,
+ 
   AiOutlineGithub,
 } from "react-icons/ai";
+
+import { FaTelegram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const socialIcons = [
   {
     Component: AiOutlineGithub,
     color: "#4078c0",
-    link: "https://github.com/dev-palwar",
+    link: "https://github.com/gennaro-16",
   },
   {
-    Component: AiFillTwitterCircle,
+    Component: FaTelegram,
     color: "#26a7de",
-    link: "https://twitter.com/dev_palwar2",
+    link: "https://t.me/gennaro9111",
   },
   {
-    Component: AiFillLinkedin,
+    Component: FaInstagram,
     color: "#0072b1",
-    link: "https://www.linkedin.com/in/dev-palwar/",
+    link: "https://www.instagram.com/suzuya_999",
   },
 ];
 

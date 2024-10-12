@@ -13,6 +13,7 @@ const Navbar = () => {
     { to: "/", text: "Home" },
     { to: "/about", text: "About me" },
     { to: "/work", text: "Work" },
+    { to: "/contact", text: "Contact" } // Updated 'contact' to 'Contact'
   ];
 
   return (
@@ -38,11 +39,11 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="mailto:devpalwar06@gmail.com"
+              href="mailto:varaforskare@gmail.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer" // Use 'noopener' instead of 'noreferrer' for security reasons
             >
-              <button>Hire me</button>
+              <button type="button">Contact me</button> {/* Added type="button" */}
             </a>
           </li>
         </ul>

@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "img": "https://i.ibb.co/ypgLYpg/Screenshot-2024-07-26-185750.png",
-        "heading": "Movies-app",
-        "link": "https://reelink.vercel.app",
+        "img": "./Images/blogs-plaza.png",
+        "heading": "Blogs-plaza",
+        "link": "https://blogs-plaza.vercel.app/",
         "github": "https://github.com/dev-palwar/Movie-app",
         "tech_Stack": [
             "react",
-            "sass",
+            "bootsrap",
             "expressjs",
             "mongodb",
             "nodejs"
@@ -15,133 +15,28 @@
     },
     {
         "id": 2,
-        "img": "https://i.ibb.co/K79tQjk/Screenshot-2023-11-30-at-21-01-17-Audiophile.png",
-        "heading": "Audiophile e-comm website",
-        "link": "https://audiophile-react.vercel.app",
-        "github": "https://github.com/dev-palwar/Audiophile-react",
+        "img": "./Images/gennaro.png",
+        "heading": "simple portfolio",
+        "link": "https://gennaro-portfolio.vercel.app/",
+        "github": "https://github.com/gennaro-16/gennaro-portfolio",
         "tech_Stack": [
             "react",
-            "tailwindcss",
-            "redux"
+            "html",
+            "css"
         ]
     },
     {
         "id": 3,
-        "img": "https://i.ibb.co/88KSgrF/Screenshot-2023-11-30-at-21-02-34-https-blogyapp-vercel-app.png",
-        "heading": "Bloggy",
-        "link": "https://blogyapp.vercel.app/",
-        "github": "https://github.com/dev-palwar/Blogging-application-frontend",
+        "img": "./Images/gennar.png",
+        "heading": "coming soon",
+        "link": "",
+        "github": "https://github.com",
         "tech_Stack": [
             "nextjs",
             "tailwindcss",
             "mongodb",
             "graphql",
             "typescript"
-        ]
-    },
-    {
-        "id": 4,
-        "img": "https://nooblinux.com/wp-content/uploads/2023/03/anipy-cli-WatchDownload-Anime-Free-via-Terminal-in-Linux-1-768x432.png",
-        "heading": ">_ Anime cli",
-        "link": "https://github.com/dev-palwar/Anime-cli",
-        "github": "https://github.com/dev-palwar/Anime-cli",
-        "tech_Stack": [
-            "nodejs"
-        ]
-    },
-    {
-        "id": 5,
-        "img": "https://i.ibb.co/9TF83x3/Screenshot-2023-11-30-at-19-51-29-Easy-bank.png",
-        "heading": "Easy Bank Landing Page",
-        "link": "https://dev-palwar.github.io/Easybank_landingPage/",
-        "github": "https://github.com/dev-palwar/Easybank_landingPage",
-        "tech_Stack": [
-            "sass"
-        ]
-    },
-    {
-        "id": 6,
-        "img": "https://i.ibb.co/Px0g6rn/Screenshot-2023-12-03-at-15-52-23-Crypto-app.png",
-        "heading": "DCrypto",
-        "link": "https://react-crypto-app1.vercel.app",
-        "github": "https://github.com/dev-palwar/react-crypto-app",
-        "tech_Stack": [
-            "react",
-            "chakraui"
-        ]
-    },
-    {
-        "id": 7,
-        "img": "https://i.ibb.co/b3r13Cb/Screenshot-2023-11-30-at-20-01-39-React-App.png",
-        "heading": "E-comm website",
-        "link": "https://mini-e-eomerce-app.vercel.app/",
-        "github": "https://github.com/dev-palwar/react-mini-eCommerce-app",
-        "tech_Stack": [
-            "react",
-            "redux",
-            "chakraui",
-            "framer motion"
-        ]
-    },
-    {
-        "id": 8,
-        "img": "https://i.ibb.co/Jky0TYy/Typing.png",
-        "heading": "Typing tester",
-        "link": "https://typing-tester-rho.vercel.app",
-        "github": "https://github.com/dev-palwar/Typing-tester",
-        "tech_Stack": [
-            "javascript"
-        ]
-    },
-    {
-        "id": 9,
-        "img": "https://i.ibb.co/m8tGb4X/Screenshot-2023-11-30-at-20-08-03-To-dos.png",
-        "heading": "To-do app",
-        "link": "https://mytodolistapp0.vercel.app/",
-        "github": "https://github.com/dev-palwar/To-do_list-app",
-        "tech_Stack": [
-            "javascript",
-            "webpack"
-        ]
-    },
-    {
-        "id": 10,
-        "img": "https://i.ibb.co/dmn1VL2/Screenshot-2023-11-30-at-20-14-20-Dictionary.png",
-        "heading": "Dictionary app",
-        "link": "https://dev-palwar.github.io/DictionaryApp/",
-        "github": "https://github.com/dev-palwar/DictionaryApp",
-        "tech_Stack": [
-            "javascript"
-        ]
-    },
-    {
-        "id": 11,
-        "img": "https://i.ibb.co/6JdDZjS/Screenshot-2023-11-30-at-20-18-20-Thumbnail-download.png",
-        "heading": "Youtube thumbnail downloader",
-        "link": "https://dev-palwar.github.io/Thumbnail-downloader/",
-        "github": "https://github.com/dev-palwar/Thumbnail-downloader",
-        "tech_Stack": [
-            "javascript"
-        ]
-    },
-    {
-        "id": 12,
-        "img": "https://i.ibb.co/XJvymzR/Screenshot-2023-11-30-at-20-42-54-Dev-s-Library.png",
-        "heading": "Library app",
-        "link": "https://dev-palwar.github.io/simple_libraryApp/?type=manga",
-        "github": "https://github.com/dev-palwar/simple_libraryApp",
-        "tech_Stack": [
-            "javascript"
-        ]
-    },
-    {
-        "id": 13,
-        "img": "https://d317jr06u12xtj.cloudfront.net/2023/01/Top-Chrome-Extensions-Social.png",
-        "heading": "Text Translator Extension",
-        "link": "https://github.com/dev-palwar/translate-extension",
-        "github": "https://github.com/dev-palwar/translate-extension",
-        "tech_Stack": [
-            "javascript"
         ]
     }
 ]

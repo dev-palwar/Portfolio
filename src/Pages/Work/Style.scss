@@ -1,11 +1,14 @@
 .work {
+    margin-bottom: 100px; // Space between Work and About sections
+
     .cards {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 8px;
-        height: 70vh;
-        overflow: scroll;
+        height: auto; // Allow the height to adjust based on content
+        max-height: 70vh; // Optional: limit the height on larger screens
+        overflow-y: auto; // Scroll vertically if needed
         scrollbar-width: thin;
         scrollbar-color: transparent transparent;
     }

@@ -6,6 +6,7 @@
   justify-content: space-around;
   align-items: center;
   height: 75vh;
+ 
   .info-section {
     display: flex;
     flex-direction: column;
@@ -29,31 +30,41 @@
 
   .image-section {
     border: 2px solid;
-    height: 49vh;
+    height: 49vh; /* Larger size for big screens */
+    width: 49vh;  /* Larger size for big screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Keep the container circular */
 
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      border-radius: 50%; /* Keep the image circular */
     }
   }
 }
 
-@media screen and (max-width: 700px){
-  .home{
+@media screen and (max-width: 700px) {
+  .home {
     flex-direction: column;
     height: 110vh;
     overflow: hidden;
-    .info-section{
+
+    .info-section {
       padding: 2rem;
-      h1{
+
+      h1 {
         font-size: 35px;
       }
     }
-    .image-section{
-      width: 85vw;
+
+    .image-section {
+      width: 65vw; /* Smaller size for small screens */
+      height: 65vw;
       order: -1;
+      border-radius: 50%; /* Keep the container circular */
     }
   }
-
 }

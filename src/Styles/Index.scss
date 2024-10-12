@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
 
-$primaryColor : rgb(151, 117, 250);
+$primaryColor : rgb(19, 41, 241);
 $primaryHeading : 4.1rem;
 $buttonText: white;
-$backgroundColor: #1b1f22;
+$backgroundColor: #000000;
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1b1f22;
+    background-color: #000000;
     color: white;
 }
 
@@ -36,4 +36,5 @@ a {
     max-width: 1180px;
     margin: auto;
     justify-content: center;
+    margin-bottom: 100px;
 }

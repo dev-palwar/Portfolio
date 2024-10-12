@@ -5,10 +5,14 @@ import {
   BiLogoNodejs,
   BiLogoReact,
   BiLogoSass,
-  BiLogoTypescript,
+  BiLogoTypescript
 } from "react-icons/bi";
 import { SiExpress, SiTailwindcss, SiWebpack } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+//import { DiLinux } from "react-icons/di";
+import { FcLinux } from "react-icons/fc";
 
 export const SkillsIcons = [
   {
@@ -16,12 +20,22 @@ export const SkillsIcons = [
     color: "yellow",
     skill: "javascript",
     name: "JavaScript",
+  },  {
+    Component: FcLinux ,
+    color: "none",
+    skill: "linux",
+    name: "linux",
   },
   {
     Component: BiLogoReact,
     color: "deepskyblue",
     skill: "react",
     name: "React",
+  },{
+    Component: FaBootstrap,
+    color: "purple",
+    skill: "bootsrap",
+    name: "bootsrap",
   },
   { Component: BiLogoSass, color: "#cc6699", skill: "sass", name: "Sass" },
   {
@@ -35,6 +49,11 @@ export const SkillsIcons = [
     color: "skyblue",
     skill: "tailwindcss",
     name: "Tailwind CSS",
+  },  {
+    Component: SiMysql,
+    color: "skyblue",
+    skill: "my sql",
+    name: "my sql",
   },
   {
     Component: BiLogoNodejs,

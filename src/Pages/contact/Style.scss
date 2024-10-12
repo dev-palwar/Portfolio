@@ -1,0 +1,130 @@
+@import '../../Styles/Index.scss';
+
+.contact-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    padding: 0 15px; // Add some padding for small devices
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.5rem;
+
+      label {
+        font-size: 1rem; // Font size for labels
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+      }
+
+      input,
+      textarea {
+        padding: 0.6rem; // Padding for input fields
+        font-size: 0.9rem; // Font size for input fields
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%; // Change to 100% to fill the container
+        box-sizing: border-box; // Ensure padding is included in width
+      }
+
+      textarea {
+        min-height: 120px; // Smaller minimum height for the textarea
+      }
+    }
+
+    .submit-btn {
+      padding: 0.6rem; // Padding for the button
+      font-size: 0.9rem; // Font size for the button
+      background-color: #2337e6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%; // Change to 100% to match input fields
+      height: 50px;
+
+      &:hover {
+        background-color: #5c3fb6;
+      }
+    }
+  }
+}
+
+// Media Queries for Responsiveness
+@media screen and (max-width: 600px) {
+  .contact-form {
+    margin-top: 20px; // Adjust top margin for mobile
+    form {
+      max-width: 90%; // Allows more width on smaller screens
+      padding: 0; // Remove padding to fit better on small screens
+
+      .input-group {
+        label {
+          font-size: 0.9rem; // Smaller font size for mobile
+        }
+
+        input,
+        textarea {
+          font-size: 0.8rem; // Smaller font size for mobile
+          padding: 0.5rem; // Reduced padding for mobile
+          margin: 0 auto; // Center the input fields
+        }
+      }
+
+      .submit-btn {
+        font-size: 0.8rem; // Smaller font size for mobile
+        padding: 0.5rem; // Reduced padding for mobile
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-form {
+    margin-top: 15px; // Adjust top margin for very small screens
+    form {
+      max-width: 95%; // Further allow more width on very small screens
+      padding: 0; // Remove padding for very small screens
+
+      .input-group {
+        label {
+          font-size: 0.8rem; // Even smaller font size for very small screens
+        }
+
+        input,
+        textarea {
+          font-size: 0.7rem; // Even smaller font size for very small screens
+          padding: 0.4rem; // Further reduced padding for very small screens
+          margin: 0 auto; // Center the input fields
+        }
+      }
+
+      .submit-btn {
+        font-size: 0.7rem; // Even smaller font size for very small screens
+        padding: 0.4rem; // Further reduced padding for very small screens
+      }
+    }
+  }
+}
+
+.response-message {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
