@@ -1,55 +1,128 @@
-@import '../../Styles/Index.scss';
-
 .about {
+    margin-top: 40px; // Space above the About section
+    margin-bottom: 100px; // Space below the About section
+  
     .info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        p {
-            font-size: 22px;
-        }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px; // Add some padding for better spacing
+  
+      p {
+        font-size: 22px;
+        line-height: 1.5; // Improve readability
+      }
     }
-
+  
     .skills {
-        h2 {
-            font-size: 2.1rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
+      h2 {
+        font-size: 2.1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        text-align: center; // Centering the heading for better alignment
+        color: #333; // Customize color to fit your design
+      }
+  
+      .icons {
+        display: flex;
+        gap: 2rem; // Space between icons
+        justify-content: center; // Center the icons horizontally
+        flex-wrap: wrap; // Allow wrapping for smaller screens
+  
+        .icon-container {
+          display: flex;
+          flex-direction: column; // Stack the icon above the name
+          align-items: center; // Center align icons and names
+  
+          .icon {
+            font-size: 4rem; // Size for icons
+            transition: transform 0.2s; // Smooth transition for scaling
+          }
+  
+          .skill-name {
+            font-size: 1rem; // Adjust the font size for names
+            text-align: center; // Center the text below the icon
+            margin-top: 5px; // Space between the icon and name
+            font-weight: 500; // Make the name stand out
+            color: #555; // Change to match your design
+          }
         }
-
-        .icons {
-            font-size: 4rem;
-            display: flex;
-            gap: 1rem;
-        }
+      }
     }
-}
-
-@media screen and (max-width: 600px) {
-
+  
+    .tech-tags {
+      h2 {
+        font-size: 2.1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        text-align: center; // Centering the heading
+        color: #333; // Customize color to fit your design
+      }
+  
+      .tags {
+        display: flex;
+        flex-wrap: wrap; // Allow tags to wrap to the next line
+        justify-content: center; // Center the tags horizontally
+        gap: 10px; // Space between tags
+  
+        .tag {
+          background-color: #e0e0e0; // Background color for tags
+          color: #333; // Text color
+          padding: 10px 15px; // Padding around tags
+          border-radius: 20px; // Rounded corners
+          font-size: 1rem; // Font size for tags
+          transition: background-color 0.2s; // Smooth background color transition
+  
+          &:hover {
+            background-color: #ccc; // Change background color on hover
+          }
+        }
+      }
+    }
+  }
+  
+  // Responsive adjustments
+  @media screen and (max-width: 600px) {
     .about {
-        .info {
-            padding: 10px;
-
-            p {
-                font-size: 13px;
-            }
+      margin-top: 20px; // Reduce margin on mobile
+  
+      .info {
+        padding: 10px;
+  
+        p {
+          font-size: 13px;
         }
-
-        .skills {
-            h2{
-                font-size: 2rem;
-                text-align: center;
-            }
-            .icons {
-                padding: 10px;
-                font-size: 2.7rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
+      }
+  
+      .skills {
+        h2 {
+          font-size: 2rem;
+          text-align: center;
         }
+  
+        .icons {
+          padding: 10px;
+          font-size: 2.7rem;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+  
+      .tech-tags {
+        h2 {
+          font-size: 2rem;
+          text-align: center;
+        }
+  
+        .tags {
+          .tag {
+            font-size: 0.9rem; // Smaller tags for mobile
+            padding: 8px 12px; // Adjust padding for mobile
+          }
+        }
+      }
     }
-
-}
+  }
+  

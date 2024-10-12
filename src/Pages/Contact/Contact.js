@@ -1,5 +1,5 @@
 import React from "react";
-import "../Contact/Style.scss";
+import "./Style.scss";
 import { motion } from "framer-motion";
 import { BiSolidMessage } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";

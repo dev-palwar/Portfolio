@@ -1,9 +1,13 @@
 import React from "react";
 import "../Home/Style.scss";
 import { motion } from "framer-motion";
-import me from "../../Assets/Images/mee.jpg";
+import me from "../../Assets/Images/m4.jpg";
 import { animations } from "../../Styles/Animations/Animations";
 import Socials from "../../Components/Socials/Socials";
+import About from '../About/About';
+import Work from '../Work/Work'
+import ContactForm from "../contact/ContactForm";
+
 
 const Home = () => {
   return (
@@ -12,7 +16,7 @@ const Home = () => {
         <div className="info-section">
           <motion.h1 {...animations.h1}>
             Hi, I am <br />
-            Dev Palwar
+            zakaria rachid
           </motion.h1>
           <motion.h3 {...animations.fade}>A Full Stack Developer</motion.h3>
           <motion.p {...animations.fade}>
@@ -25,6 +29,13 @@ const Home = () => {
           <img src={me} alt="" />
         </div>
       </div>
+      
+      <Work/>
+      
+     
+      <About/>
+    <ContactForm/>
+   
     </>
   );
 };

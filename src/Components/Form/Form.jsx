@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../Form/Style.scss";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Heading from "../Heading/Heading";
 
 const Form = () => {
   const [userData, setUserData] = useState({
@@ -52,7 +53,9 @@ const Form = () => {
   };
 
   return (
+    
     <form action="">
+      <Heading Heading={"Contact Me"} />
       <ToastContainer theme="dark" autoClose={2000}/>
       <input
         value={userData.name}
