@@ -5,6 +5,7 @@ import {
   AiFillTwitterCircle,
   AiOutlineGithub,
 } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 
 const socialIcons = [
   {
@@ -21,6 +22,11 @@ const socialIcons = [
     Component: AiFillLinkedin,
     color: "#0072b1",
     link: "https://www.linkedin.com/in/dev-palwar/",
+  },
+  {
+    Component: SiLeetcode,
+    color: "#f79c16",
+    link: "https://leetcode.com/u/devpalwar/",
   },
 ];
 

@@ -1,0 +1,77 @@
+.experience {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 16px;
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 32px;
+        background: linear-gradient(to right, #a855f7, #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__card {
+        background-color: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    &__card-content {
+        padding: 24px;
+    }
+
+    &__card-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 8px;
+    }
+
+    &__card-company {
+        color: #a855f7;
+        margin-bottom: 4px;
+    }
+
+    &__card-duration {
+        color: #9ca3af;
+        font-size: 0.875rem;
+        margin-bottom: 16px;
+    }
+
+    &__card-responsibilities {
+        list-style-type: disc;
+        padding-left: 20px;
+        color: #d1d5db;
+    }
+
+    &__card-responsibility {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience {
+        padding: 32px 16px;
+
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__card-content {
+            padding: 16px;
+        }
+    }
+}

@@ -4,10 +4,10 @@ import {
   BiLogoMongodb,
   BiLogoNodejs,
   BiLogoReact,
-  BiLogoSass,
   BiLogoTypescript,
+  BiLogoJava,
 } from "react-icons/bi";
-import { SiExpress, SiTailwindcss, SiWebpack } from "react-icons/si";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const SkillsIcons = [
@@ -23,7 +23,6 @@ export const SkillsIcons = [
     skill: "react",
     name: "React",
   },
-  { Component: BiLogoSass, color: "#cc6699", skill: "sass", name: "Sass" },
   {
     Component: TbBrandNextjs,
     color: "cornsilk",
@@ -66,5 +65,10 @@ export const SkillsIcons = [
     skill: "graphql",
     name: "GraphQL",
   },
-  { Component: SiWebpack, color: "#81d4fa", skill: "webpack", name: "Webpack" },
+  {
+    Component: BiLogoJava,
+    color: "#f89820",
+    skill: "java",
+    name: "java",
+  },
 ];

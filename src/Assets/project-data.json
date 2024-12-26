@@ -27,7 +27,7 @@
     },
     {
         "id": 3,
-        "img": "https://i.ibb.co/88KSgrF/Screenshot-2023-11-30-at-21-02-34-https-blogyapp-vercel-app.png",
+        "img": "https://i.ibb.co/k6QcvMJ/image.png",
         "heading": "Bloggy",
         "link": "https://blogyapp.vercel.app/",
         "github": "https://github.com/dev-palwar/Blogging-application-frontend",
@@ -36,7 +36,8 @@
             "tailwindcss",
             "mongodb",
             "graphql",
-            "typescript"
+            "typescript",
+            "react"
         ]
     },
     {
@@ -47,6 +48,17 @@
         "github": "https://github.com/dev-palwar/Anime-cli",
         "tech_Stack": [
             "nodejs"
+        ]
+    },
+    {
+        "id": 15,
+        "img": "https://i.ibb.co/3fxSH41/image.png",
+        "heading": "The one you're currently on",
+        "link": "https://devpalwar.vercel.app/",
+        "github": "https://github.com/dev-palwar/Portfolio",
+        "tech_Stack": [
+            "react",
+            "sass"
         ]
     },
     {
@@ -86,7 +98,7 @@
     {
         "id": 8,
         "img": "https://i.ibb.co/Jky0TYy/Typing.png",
-        "heading": "Typing tester",
+        "heading": "Check your typing speed",
         "link": "https://typing-tester-rho.vercel.app",
         "github": "https://github.com/dev-palwar/Typing-tester",
         "tech_Stack": [
@@ -142,6 +154,17 @@
         "github": "https://github.com/dev-palwar/translate-extension",
         "tech_Stack": [
             "javascript"
+        ]
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co/2Ss63V9/twt-follow-all-ext.webp",
+        "heading": "Twitter follow-all extension",
+        "link": "https://github.com/dev-palwar/twt-follow-all-extension",
+        "github": "https://github.com/dev-palwar/twt-follow-all-extension",
+        "tech_Stack": [
+            "typescript",
+            "react"
         ]
     }
 ]

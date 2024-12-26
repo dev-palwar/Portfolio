@@ -6,7 +6,7 @@ import Heading from "../../Components/Heading/Heading";
 import { LoadMore } from "../../Components/Loader/Loader";
 import { motion } from "framer-motion";
 import { animations } from "../../Styles/Animations/Animations";
-import { SkillsIcons } from "./icons";
+import { SkillsIcons } from "../../utils/icons";
 
 const Work = () => {
   const [projects, setProjects] = useState(Data.slice(0, 5));

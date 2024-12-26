@@ -11,7 +11,8 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/", text: "Home" },
-    { to: "/about", text: "About me" },
+    { to: "/about", text: "About Me" },
+    { to: "/exp", text: "Tech Experience" },
     { to: "/work", text: "Work" },
   ];
 

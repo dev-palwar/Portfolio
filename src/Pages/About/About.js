@@ -3,7 +3,7 @@ import "../About/Style.scss";
 import { motion } from "framer-motion";
 import Heading from "../../Components/Heading/Heading";
 import { animations } from "../../Styles/Animations/Animations";
-import { SkillsIcons } from "../Work/icons";
+import { SkillsIcons } from "../../utils/icons";
 
 const About = () => {
   return (
@@ -27,6 +27,7 @@ const About = () => {
         </div>
         <motion.div {...animations.fade} className="skills">
           <h2>Stuff i know : </h2>
+          <p style={{ marginBottom: "1rem" }}>(Only the imp ones)</p>
           <div className="icons">
             {SkillsIcons.map(({ Component, color, skill, name }, index) => (
               <Component
