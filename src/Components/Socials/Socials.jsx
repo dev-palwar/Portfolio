@@ -23,11 +23,11 @@ const socialIcons = [
     color: "#0072b1",
     link: "https://www.linkedin.com/in/dev-palwar/",
   },
-  {
-    Component: SiLeetcode,
-    color: "#f79c16",
-    link: "https://leetcode.com/u/devpalwar/",
-  },
+  // {
+  //   Component: SiLeetcode,
+  //   color: "#f79c16",
+  //   link: "https://leetcode.com/u/devpalwar/",
+  // },
 ];
 
 const Socials = () => {
